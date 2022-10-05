@@ -1,0 +1,139 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    color: #40514E;
+}
+.std{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    /*This is for Centering the elements in the web page.*/
+}
+h1{
+    padding-top: 30px;
+    font-family: 'sacramento', cursive;
+    font-size: 70px;
+    border-top: 50px;
+    margin-top: 50px;
+    color: #647E68;
+}
+h5{
+  font-size: 1.5rem;   
+  color: #647E68;
+}
+h2{
+    color: #647E68;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+h3{
+    color: #647E68;
+    font-family: 'Montserrat', sans-serif;
+}
+.topContainer{
+    background-color: #CEE5D0;
+    position: relative;
+}
+
+.school{
+    width: 150px;
+}
+.food{
+    width: 150px;
+    
+}
+.contact{
+    width: 150px;
+
+}
+.circular{
+    border-radius: 100%;
+}
+.mountain{
+    width: 300px;
+}
+.top-cloud{
+    padding-top: 100px;
+    width: 70px;
+    position: absolute;
+    right: 170px;
+    top: 70px;
+}
+.bottom-cloud{
+    width: 70px;
+    position: absolute;
+    right: 500px;
+    top: 30px;
+}
+
+p{
+    font-size:xx-small;
+    line-height: 2;
+}
+/*Since the margin also have its own default margin so its needed to set the value of the margin also (of heading)*/
+hr{
+    border: dotted orchid 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto;
+    /*This is to create a space above and below the horizontal row.*/
+}
+.contactme{
+ width: 40%;
+ margin: 30px auto 40px;
+}
+
+.btn {
+    background: #364854;
+    background-image: -webkit-linear-gradient(top, #364854, #4c98c7);
+    background-image: -moz-linear-gradient(top, #364854, #4c98c7);
+    background-image: -ms-linear-gradient(top, #364854, #4c98c7);
+    background-image: -o-linear-gradient(top, #364854, #4c98c7);
+    background-image: linear-gradient(to bottom, #364854, #4c98c7);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #1a6fa3;
+    background-image: -webkit-linear-gradient(top, #1a6fa3, #62afe3);
+    background-image: -moz-linear-gradient(top, #1a6fa3, #62afe3);
+    background-image: -ms-linear-gradient(top, #1a6fa3, #62afe3);
+    background-image: -o-linear-gradient(top, #1a6fa3, #62afe3);
+    background-image: linear-gradient(to bottom, #1a6fa3, #62afe3);
+    text-decoration: none;
+    margin-bottom: 100px;
+  }
+  .bottom-container{
+    background-color: #66BFBF;
+    padding : 50px 0 20px;
+  }
+
+  a{
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #CEE5D0;
+  }
+
+  .copyright{
+    color:antiquewhite;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
